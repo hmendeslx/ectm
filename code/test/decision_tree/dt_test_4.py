@@ -247,3 +247,8 @@ plt.xlabel('Age (in months)')
 plt.ylabel('Probability of Failure')
 plt.show()
 plt.savefig('../../../outputs/decision_tree/dt_test_4.png')
+
+# Calculating r2 score
+y_actual = dataset['act_total_fp'].values
+accuracy = r2_score(y_actual, y_pred)
+

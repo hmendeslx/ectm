@@ -252,4 +252,3 @@ plt.savefig('../../../outputs/multiple_linear_regression/mlr_test_1.png')
 # Calculating r2 score
 y_actual = dataset['act_total_fp'].values
 accuracy = r2_score(y_actual, y_pred)
-
